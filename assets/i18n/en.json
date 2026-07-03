@@ -11,6 +11,7 @@
 
   "login.welcome": "Welcome to SilentChat",
   "login.description": "Anonymous & decentralized chat on Nostr",
+  "login.bestTor": "Best used with Tor Browser",
   "login.generateKey": "Generate new key",
   "login.importKey": "Import existing nsec",
   "login.createIdentity": "Create your identity",
@@ -31,6 +32,11 @@
   "login.enterNsec": "Enter your nsec",
   "login.failedCreateKey": "Failed to create key",
   "login.wrongPin": "Wrong PIN",
+  "login.supportedProtocols": "Supported protocols",
+  "login.nip01": "Basic event relay protocol",
+  "login.nip19": "bech32-encoded keys (npub/nsec)",
+  "login.nip44": "Encrypted direct messages",
+  "login.nip17": "Gift-wrapped private messages",
 
   "home.title": "SilentChat",
   "home.directMessages": "Direct Messages",
@@ -59,6 +65,15 @@
   "home.deleteGroup": "Delete group",
   "home.deleteChatConfirm": "Delete all messages with {name}?",
   "home.deleteGroupConfirm": "Delete \"{name}\" and all its messages?",
+
+  "tor.off": "Off",
+  "tor.auto": "Auto (detect)",
+  "tor.force": "Force",
+  "tor.section": "Tor",
+  "tor.detected": "Tor Browser detected",
+  "tor.notDetected": "Tor Browser not detected",
+  "tor.forceBlocked": "Tor mode is set to Force but Tor Browser is not detected. Disable Force mode or use Tor Browser.",
+  "tor.onionRelay": "Onion",
 
   "chat.noMessages": "No messages yet. Send the first one!",
   "chat.failedLoad": "Failed to load chat",

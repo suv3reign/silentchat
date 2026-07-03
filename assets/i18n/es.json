@@ -11,6 +11,7 @@
 
   "login.welcome": "Bienvenido a SilentChat",
   "login.description": "Chat anónimo y descentralizado en Nostr",
+  "login.bestTor": "Mejor con Tor Browser",
   "login.generateKey": "Generar nueva clave",
   "login.importKey": "Importar nsec existente",
   "login.createIdentity": "Crea tu identidad",
@@ -31,6 +32,11 @@
   "login.enterNsec": "Ingresa tu nsec",
   "login.failedCreateKey": "Error al crear la clave",
   "login.wrongPin": "PIN incorrecto",
+  "login.supportedProtocols": "Protocolos soportados",
+  "login.nip01": "Protocolo básico de eventos",
+  "login.nip19": "Claves codificadas en bech32 (npub/nsec)",
+  "login.nip44": "Mensajes directos cifrados",
+  "login.nip17": "Mensajes privados envueltos",
 
   "home.title": "SilentChat",
   "home.directMessages": "Mensajes directos",
@@ -59,6 +65,15 @@
   "home.deleteGroup": "Eliminar grupo",
   "home.deleteChatConfirm": "¿Eliminar todos los mensajes con {name}?",
   "home.deleteGroupConfirm": "¿Eliminar \"{name}\" y todos sus mensajes?",
+
+  "tor.off": "Desactivado",
+  "tor.auto": "Auto (detectar)",
+  "tor.force": "Forzar",
+  "tor.section": "Tor",
+  "tor.detected": "Tor Browser detectado",
+  "tor.notDetected": "Tor Browser no detectado",
+  "tor.forceBlocked": "El modo Tor está en Forzar pero no se detecta Tor Browser. Desactiva el modo Forzar o usa Tor Browser.",
+  "tor.onionRelay": "Cebolla",
 
   "chat.noMessages": "Sin mensajes. ¡Envía el primero!",
   "chat.failedLoad": "Error al cargar el chat",

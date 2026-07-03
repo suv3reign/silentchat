@@ -11,6 +11,7 @@
 
   "login.welcome": "Bienvenue sur SilentChat",
   "login.description": "Chat anonyme et décentralisé sur Nostr",
+  "login.bestTor": "Meilleur avec Tor Browser",
   "login.generateKey": "Générer une nouvelle clé",
   "login.importKey": "Importer une nsec existante",
   "login.createIdentity": "Créez votre identité",
@@ -31,6 +32,11 @@
   "login.enterNsec": "Entrez votre nsec",
   "login.failedCreateKey": "Échec de la création de la clé",
   "login.wrongPin": "Code PIN incorrect",
+  "login.supportedProtocols": "Protocoles supportés",
+  "login.nip01": "Protocole événement de base",
+  "login.nip19": "Clés encodées en bech32 (npub/nsec)",
+  "login.nip44": "Messages directs chiffrés",
+  "login.nip17": "Messages privés enveloppés",
 
   "home.title": "SilentChat",
   "home.directMessages": "Messages directs",
@@ -59,6 +65,15 @@
   "home.deleteGroup": "Supprimer le groupe",
   "home.deleteChatConfirm": "Supprimer tous les messages avec {name} ?",
   "home.deleteGroupConfirm": "Supprimer \"{name}\" et tous ses messages ?",
+
+  "tor.off": "Désactivé",
+  "tor.auto": "Auto (détection)",
+  "tor.force": "Forcé",
+  "tor.section": "Tor",
+  "tor.detected": "Tor Browser détecté",
+  "tor.notDetected": "Tor Browser non détecté",
+  "tor.forceBlocked": "Le mode Tor est forcé mais Tor Browser n'est pas détecté. Désactive le mode Forcé ou utilise Tor Browser.",
+  "tor.onionRelay": "Oignon",
 
   "chat.noMessages": "Aucun message. Envoyez le premier !",
   "chat.failedLoad": "Échec du chargement du chat",
